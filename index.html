@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مدير المهام اليومية</title>
+    <title> المهام الارقوازي</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes fall {
@@ -82,7 +82,7 @@
             <div id="rewardMessage" style="display: none;" class="mb-6 animate-pulse">
                 <div class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-white rounded-3xl px-8 py-6 shadow-2xl inline-block" style="transform: scale(1.1);">
                     <div class="text-6xl mb-3">🎉 🏆 ✨</div>
-                    <h2 class="text-3xl font-bold mb-2">مبروك! أنجزت كل المهام!</h2>
+                    <h2 class="text-3xl font-bold mb-2">بدري ما بغينا</h2>
                     <p class="text-lg opacity-90">وش مهامك لبكرة؟ 📝</p>
                 </div>
             </div>
@@ -133,7 +133,7 @@
 
     <script>
         let tasks = [];
-        let darkMode = localStorage.getItem('darkMode') === 'true';
+        let darkMode = true;
 
         const taskInput = document.getElementById('taskInput');
         const prioritySelect = document.getElementById('prioritySelect');
